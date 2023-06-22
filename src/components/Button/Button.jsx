@@ -1,7 +1,9 @@
-export const Button = () => {
+export const Button = ({ incrementPage }) => {
   return (
     <>
-      <div>Button</div>
+      <button className="Button" type="button" onClick={incrementPage}>
+        LOAD MORE
+      </button>
     </>
   );
 };
